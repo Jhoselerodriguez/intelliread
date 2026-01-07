@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  .light {
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%;
+    --radius: 0.5rem;
+    --header-bg: 222 47% 11%;
+    --header-foreground: 0 0% 100%;
+    --header-muted: 220 9% 70%;
+    --panel-bg: 0 0% 100%;
+    --panel-border: 220 13% 91%;
+    --tab-bg: 210 20% 95%;
+    --tab-active: 0 0% 100%;
+    --section-bg: 210 25% 96%;
+    --badge-dark: 222 47% 11%;
+    --badge-dark-foreground: 0 0% 100%;
+    --chat-user: 217 91% 60%;
+    --chat-assistant: 220 14% 96%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 212 27% 84%;
+    --header-bg: 222 47% 8%;
+    --header-foreground: 0 0% 100%;
+    --header-muted: 220 9% 70%;
+    --panel-bg: 222 47% 8%;
+    --panel-border: 217 33% 17%;
+    --tab-bg: 217 33% 15%;
+    --tab-active: 222 47% 8%;
+    --section-bg: 217 33% 12%;
+    --badge-dark: 217 33% 17%;
+    --badge-dark-foreground: 210 40% 98%;
+    --chat-user: 217 91% 60%;
+    --chat-assistant: 217 33% 17%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .amoled {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 217 91% 60%;
+    --header-bg: 0 0% 0%;
+    --header-foreground: 0 0% 100%;
+    --header-muted: 0 0% 60%;
+    --panel-bg: 0 0% 5%;
+    --panel-border: 0 0% 15%;
+    --tab-bg: 0 0% 10%;
+    --tab-active: 0 0% 5%;
+    --section-bg: 0 0% 8%;
+    --badge-dark: 0 0% 15%;
+    --badge-dark-foreground: 0 0% 100%;
+    --chat-user: 217 91% 60%;
+    --chat-assistant: 0 0% 12%;
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer components {
+  .header-gradient {
+    background: hsl(var(--header-bg));
+  }
+  .panel-card {
+    @apply bg-card border border-border rounded-lg;
+  }
+  .section-card {
+    background: hsl(var(--section-bg));
+    @apply rounded-lg p-4;
+  }
+  .tab-container {
+    background: hsl(var(--tab-bg));
+    @apply rounded-lg p-1;
+  }
+  .tab-active {
+    background: hsl(var(--tab-active));
+    @apply shadow-sm;
+  }
+  .badge-dark {
+    background: hsl(var(--badge-dark));
+    color: hsl(var(--badge-dark-foreground));
+    @apply px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .chat-bubble-user {
+    background: hsl(var(--chat-user));
+    color: hsl(var(--primary-foreground));
+    @apply rounded-2xl rounded-br-md px-4 py-2;
+  }
+  .chat-bubble-assistant {
+    background: hsl(var(--chat-assistant));
+    color: hsl(var(--foreground));
+    @apply rounded-2xl rounded-bl-md px-4 py-2;
+  }
+  .warning-banner {
+    background: hsl(38 92% 95%);
+    border: 1px solid hsl(38 92% 75%);
+    color: hsl(38 92% 30%);
+  }
+  .processing-overlay {
+    @apply fixed inset-0 bg-black/50 flex items-center justify-center z-50;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+    border-radius: 3px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 3px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}
