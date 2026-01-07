@@ -19,12 +19,12 @@ IntelliRead transforms PDFs into **queryable knowledge bases** where you can sea
 
 ## Supported PDF Types
 
-| Type | Description | Processing Method |
-|------|-------------|-------------------|
-| **Text-based PDFs** | Standard PDFs with selectable text | Direct text extraction via PDF.js |
-| **Mixed PDFs** | Documents combining text and images | Hybrid extraction with AI image analysis |
-| **Image-only PDFs** | Scanned documents, photo PDFs | Full page rendering + Gemini AI descriptions |
-| **Chart-heavy PDFs** | Data visualizations and diagrams | AI-powered chart interpretation |
+| Type                 | Description                         | Processing Method                            |
+| -------------------- | ----------------------------------- | -------------------------------------------- |
+| **Text-based PDFs**  | Standard PDFs with selectable text  | Direct text extraction via PDF.js            |
+| **Mixed PDFs**       | Documents combining text and images | Hybrid extraction with AI image analysis     |
+| **Image-only PDFs**  | Scanned documents, photo PDFs       | Full page rendering + Gemini AI descriptions |
+| **Chart-heavy PDFs** | Data visualizations and diagrams    | AI-powered chart interpretation              |
 
 ## Core Features
 
@@ -52,13 +52,13 @@ IntelliRead transforms PDFs into **queryable knowledge bases** where you can sea
 
 ## Technology Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React 18 + TypeScript + Vite |
-| **UI Components** | shadcn/ui + Tailwind CSS |
-| **PDF Processing** | PDF.js (client-side) |
-| **Storage** | IndexedDB via idb library |
-| **AI Providers** | Groq, Perplexity, Anthropic, Google Gemini |
+| Layer              | Technology                                 |
+| ------------------ | ------------------------------------------ |
+| **Frontend**       | React 18 + TypeScript + Vite               |
+| **UI Components**  | shadcn/ui + Tailwind CSS                   |
+| **PDF Processing** | PDF.js (client-side)                       |
+| **Storage**        | IndexedDB via idb library                  |
+| **AI Providers**   | Groq, Perplexity, Anthropic, Google Gemini |
 
 ## Getting Started
 
@@ -75,7 +75,7 @@ IntelliRead transforms PDFs into **queryable knowledge bases** where you can sea
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone the repository.
 git clone https://github.com/Illusory-warden/intelliread.git
 cd intelliread
 
@@ -122,13 +122,13 @@ For detailed architecture, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Limitations
 
-| Limitation | Description |
-|------------|-------------|
-| **Image Interpretation** | AI descriptions are interpretive, not exact transcriptions |
-| **Complex Charts** | Multi-layered visualizations may not be fully captured |
-| **OCR Accuracy** | Depends on scan quality; handwritten text may not process well |
-| **Offline AI** | Image analysis and Q&A require internet connection |
-| **Browser Storage** | IndexedDB has browser-specific storage limits |
+| Limitation               | Description                                                    |
+| ------------------------ | -------------------------------------------------------------- |
+| **Image Interpretation** | AI descriptions are interpretive, not exact transcriptions     |
+| **Complex Charts**       | Multi-layered visualizations may not be fully captured         |
+| **OCR Accuracy**         | Depends on scan quality; handwritten text may not process well |
+| **Offline AI**           | Image analysis and Q&A require internet connection             |
+| **Browser Storage**      | IndexedDB has browser-specific storage limits                  |
 
 For complete limitations, see [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
